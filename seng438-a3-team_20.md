@@ -21,44 +21,44 @@ Text…
 **calculateColumnTotal**:
 
 Data flow graph:
-          +---------------+
-          | mockingContext|
-          +---------------+
-                |
-                V
-          +---------------+
-          |    values     |
-          +---------------+
-                |
-      +---------+--------+
-      |                  |
-      V                  V
-+---------------+  +---------------+
-| setUp()       |  | setUp()       |
-| (initializes  |  | (initializes  |
-| mockingContext|  | values)       |
-+---------------+  +---------------+
-                |
-                V
-          +---------------+
-          | calculate-    |
-          | ColumnTotal() |
-          +---------------+
-                |
-                V
-          +---------------+
-          |  assertEquals |
-          +---------------+
-                |
-                V
-          +---------------+
-          | NullPointerException |
-          +---------------+
-                |
-                V
-          +---------------+
-          | tearDown()    |
-          +---------------+
+                        +---------------+
+                        | mockingContext|
+                        +---------------+
+                                |
+                                V
+                        +---------------+
+                        |    values     |
+                        +---------------+
+                                |
+                    +---------+--------+
+                    |                  |
+                    V                  V
+                +---------------+  +---------------+
+                | setUp()       |  | setUp()       |
+                | (initializes  |  | (initializes  |
+                | mockingContext|  | values)       |
+                +---------------+  +---------------+
+                                |
+                                V
+                        +---------------+
+                        | calculate-    |
+                        | ColumnTotal() |
+                        +---------------+
+                                |
+                                V
+                        +---------------+
+                        |  assertEquals |
+                        +---------------+
+                                |
+                                V
+                        +---------------+
+                        | NullPointerException |
+                        +---------------+
+                                |
+                                V
+                        +---------------+
+                        | tearDown()    |
+                        +---------------+
 
 
 Def-use sets per statement:
