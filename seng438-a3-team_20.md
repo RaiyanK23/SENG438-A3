@@ -22,6 +22,7 @@ Text…
 
 Data flow graph: 
 
+```
 `+---------------+
  | mockingContext|
  +---------------+
@@ -60,8 +61,8 @@ Data flow graph:
  +---------------+
  | tearDown()    |
  +---------------+
- `
- 
+
+```
 
 
 Def-use sets per statement:
