@@ -181,10 +181,12 @@ There are a total of 5 DU-pairs for the exampleRange variable and all of them ar
 
 # 3 A detailed description of the testing strategy for the new unit test
 
+Fortunately our team created very effiecient units tests in the previous assignments so we didn't have to develop an elaborate test plan for this assignment. The first step in our testing plan was to run all our previous code using with artifacts provided in the assignment outline. After running the code we will then employ a coverage tool that satisfies all the metrics required. After running the tool to determine the test coverage we will note down the values and make adjustmnents as needed. In our case, we decided to go with EclEmma in eclipse since it was easy to install and had all the coverage metrics we needed. 
 Text…
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
+As mentioned in the previous section of the report, the previous tests we created were very efficient and this result in really good values for the required coverage metrics. Using EclEmma, we determined all ten of our tests had at least 95% line coverage. This resulted in us not having to add or remove tests cases from the tests initially. To improve any tests with covergae below 100%, we mainly formatted the suite(e.g deleting spaces between brackets). This change resulted in improving all tests to have 97.5% or higher line coverage. Afterwards, we checked the method coverage and 4 of our tests had 87.5% coverage. The coverage tool selected, EclEmma, had the capabilites of highlighting the exact method that affected the coverage percentage. When the highlighted test cases were removed, the method coverage improved to 100% for all tests. The test cases removed in all 4 tests was throwing an exception and beacuse it was not relevant to our tests the coverage tool suggested we removed it. 
 Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
