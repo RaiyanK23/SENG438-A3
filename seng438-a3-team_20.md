@@ -7,7 +7,7 @@
 | Jacob |     |
 | Mohammed               |     |
 | Kundai             |     |
-| Markosch               |     |
+| Markosch Saure | 30088690   |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
@@ -189,7 +189,12 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+![image](https://user-images.githubusercontent.com/25757265/222871797-865d4d43-94b8-495f-8856-9594506adfc6.png)
+
+![image](https://user-images.githubusercontent.com/25757265/222871812-ce6ec4bd-604d-481c-8775-2d29f41dd918.png)
+
+![image](https://user-images.githubusercontent.com/25757265/222871834-f251fcba-7c77-4fa9-9bd8-b4ff09d664f0.png)
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
