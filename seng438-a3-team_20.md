@@ -4,17 +4,17 @@
 
 | Group \#:  20    |     |
 | -------------- | --- |
-| Jacob Adeyemo |30046186     |
-| Mohammed               |     |
-| Kundai             |     |
-| Markosch Saure | 30088690   |
+| Jacob Adeyemo | 30046186 |
+| Mohammed Kabir | 30092222 |
+| Kundai Dziwa | 30090173 |
+| Markosch Saure | 30088690 |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+In this lab exercise we are creating unit tests that will allow us to test all areas of the given software. We plan to approach this exercise with an alternative method being white box testing which can hopefully give us a deeper understanding and thorough evaluation. We will read the the java documents and class files to look into and understand the code being tested. Then we will make sure to implement test cases that allow for full code coverage in the most efficient way. Aiming to reach a coverage of above 90% at least amongst all test cases. This will be down with the implementation of coverage tools and complete knowledge of the code requirements. 
 
 # 2 Manual data-flow coverage calculations for DataUtilities.calculateColumnTotal and Range.contains methods
 
@@ -237,11 +237,11 @@ Method testing is a time-consuming coverage metric that typically requires speci
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text… 
+We divided the work in a manner which would most effectively allow us to reach the goal of the lab. That goal being to write and create test that bring us the most coverage and that test the software application in the most complete manner. To do this, we understood that for white box testing as such, understanding of the code itself being tested is a must. Thus we separate the test tasks by having each individual work on the 2/3 test files which they had created in the previous lab. This ensured that each person already had a good foundation of knowledge regarding the specific code within their tested methods. Afterwards, as a group we combined or thoughts together and each contributed to the final report document of the lab.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+Throughout the lab, we were able to work effectively and efficiently, therefore we did not encounter any crucial issues or problems. We learned more and more each at each step and understood the importance of what we were doing. However, at the beginning of the lab we all individually found issues in the setup process. We had to work around unknown errors which would arise from simply importing or creating new projects. Using eachothers individual knowledge and brainstorming ideas as a group helped us solve the arising setup problems.
 
 # 10 Comments/feedback on the lab itself
 
